@@ -1,0 +1,205 @@
+/* html {
+  zoom: 90%;
+} */
+
+.kebab-menu.dropdown {
+    -webkit-appearance: button;
+}
+
+.kebab-menu.dropdown button {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+.kebab-menu.dropdown button:after {
+ content:none !important;
+}
+
+.kebab-menu.dropdown button img {
+    height: 24px;
+}
+
+
+.search-field .form-icon--left {
+    width: 6rem;
+}
+
+.search-field .form-icon-input-left {
+    padding-left: 6.5rem;
+}
+
+.search-field .form-icon-input-left:focus {
+    outline: none;
+    border-color: #d9e4ec !important;
+ }
+
+ .fa-search{
+     cursor: pointer;
+ }
+
+ .search-field select.custom-select {border-color: #d9e4ec !important;}
+ .search-field select.custom-select {border-right-color: #d9e4ecbd;}
+
+ .auth-logo {
+    background: #202D3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-logo img {
+    width: 50%;
+}
+
+/* .u-sidebar-inner{
+    width: 12rem;
+}
+
+.u-body{
+    padding: 0.8rem;
+}
+
+main.u-main {
+    padding-left: 0 !important;
+} */
+
+
+.custom-switch {
+    padding-left: 2.25rem;
+  }
+  
+  .custom-switch .custom-control-label::before {
+    left: -2.25rem;
+    width: 1.75rem;
+    pointer-events: all;
+    border-radius: 0.5rem;
+  }
+  
+  .custom-switch .custom-control-label::after {
+    top: calc(0.25rem + 2px);
+    left: calc(-2.25rem + 2px);
+    width: calc(1rem - 4px);
+    height: calc(1rem - 4px);
+    background-color: #adb5bd;
+    border-radius: 0.5rem;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out;
+    transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .custom-switch .custom-control-label::after {
+      transition: none;
+    }
+  }
+  
+  .custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+    background-color: #fff;
+    -webkit-transform: translateX(0.75rem);
+    transform: translateX(0.75rem);
+  }
+  
+  .custom-switch .custom-control-input:disabled:checked ~ .custom-control-label::before {
+    background-color: rgba(0, 123, 255, 0.5);
+  }
+  
+
+  .form-error-text{
+    font-size: 0.7rem;
+  }
+
+  .pad-logo{
+    padding-left: 1.5rem;
+  }
+
+
+  .slide-pane__overlay.ReactModal__Overlay--after-open {
+    z-index: 9999 !important;
+}
+
+
+/*  Tag Input */
+.ReactTags__tags.react-tags-wrapper {
+  background: white;
+  border: 1px solid #d6d6d6;
+  border-radius: 2px;
+  flex-wrap: wrap;
+ padding: 0.25em;
+    height: 150px;
+    overflow-y: scroll;
+
+}
+
+.ReactTags__selected {
+display: -webkit-inline-box;
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.ReactTags__tagInput {
+background: none;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  padding: 0.4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input.ReactTags__tagInputField {
+border: none;
+  width: 100%;
+  outline: none !important;
+}
+
+span.tag-wrapper.ReactTags__tag {
+  background: #501088;
+  color: white;
+  padding: 0.4em;
+  margin: 0.25em;
+  border-radius: 0.2em;
+}
+
+a.ReactTags__remove {
+  display: inline-block;
+  margin-left: 0.5em;
+}
+
+.remove-outline {
+    color: #6b15b6 !important;
+    background-color: transparent !important;
+    background-image: none;
+    border-color: transparent !important;
+}
+
+
+.card-body.average-card {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+.card-body.average-card p:nth-child(1) {
+    font-size: 12px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.card-body.average-card p:nth-child(2) {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+
+.fav-row img {
+  width: 12px;
+  margin-bottom: 16px;
+}
